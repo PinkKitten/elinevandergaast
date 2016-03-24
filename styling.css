@@ -3,33 +3,30 @@
   src:
     url('fonts/source_code_pro_roman_regular.ttf')
 }
-
 body {
   font-family: 'ScpRomanRegular', Fallback, 'Courier New';
 }
-
 #eline-bw {
 	height: 600px;
 	width: 100%;
 	background-image: url("images/eline_bw.jpg");
 	background-size: cover;
 }
-
-.coming-soon {
+.info {
   color: white;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px;
+  margin-bottom: 0px;
 }
-#nav-bar {
-	list-style-type: none;
-	color: white;
-	font-size: 28px;
-	margin-top: 10%;
+.note_message {
+  height: 75px;
 }
-
-#nav-bar > li {
-	margin-bottom: 5%;
+.note_container {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
-
-#nav-bar > li:hover {
-	color: #f5c4ca;
-	cursor: pointer;
+.note_title {
+  color: white;
 }

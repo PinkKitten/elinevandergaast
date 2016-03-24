@@ -3,6 +3,7 @@
       <meta charset="UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Eline van der Gaast</title>
+      <link rel="icon" href="http://example.com/favicon.png">
       <script src="vendor/jquery-1.11.1.js"></script>
       <script src="vendor/bootstrap.min.js"></script>
       <link rel="stylesheet" type="text/css" href="vendor/bootstrap.min.css">
@@ -13,15 +14,18 @@
     <div id="eline-bw" class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-sm-6">
-          <h1 class='coming-soon'>Coming soon...</h1>
+          <h3 class="info">Eline van der Gaast &lt;/&gt;</h3>
+          <h4 class="info">Full Stack Software Engineer</h4>
         </div>
-        <div class="col-xs-12 col-sm-6 hidden">
-          <ul id="nav-bar">
-            <li> # About</li>
-            <li> # Portfolio</li>
-            <li> # Stack</li>
-            <li> # Contact</li>
-          </ul>
+      </div>
+      <div class="row note_container">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-7">
+          <h4 class="note_title">Leave me a note...</h4>
+          <form action="https://formspree.io/elinevdgaast@gmail.com" method="POST">
+            <textarea type="text" name="name" class="form-control note_message" placeholder="Your Message"></textarea>
+            <input type="email" name="_replyto" class="form-control" placeholder="Your Email">
+            <input type="submit" value="Send" class="form-control">
+          </form>
         </div>
       </div>
     </div>
