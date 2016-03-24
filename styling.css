@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'ScpRomanRegular';
+  src:
+    url('fonts/source_code_pro_roman_regular.ttf')
+}
+
+body {
+  font-family: 'ScpRomanRegular', Fallback, 'Courier New';
+}
+
+#eline-bw {
+	height: 600px;
+	width: 100%;
+	background-image: url("images/eline_bw.jpg");
+	background-size: cover;
+}
+
+.coming-soon {
+  color: white;
+}
+#nav-bar {
+	list-style-type: none;
+	color: white;
+	font-size: 28px;
+	margin-top: 10%;
+}
+
+#nav-bar > li {
+	margin-bottom: 5%;
+}
+
+#nav-bar > li:hover {
+	color: #f5c4ca;
+	cursor: pointer;
+}
