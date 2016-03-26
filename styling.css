@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'ScpRomanRegular';
-  src:
-    url('fonts/source_code_pro_roman_regular.ttf')
+  src: url('fonts/source_code_pro_roman_regular.ttf')
 }
 body {
   font-family: 'ScpRomanRegular', Fallback, 'Courier New';
